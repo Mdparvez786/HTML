@@ -1,0 +1,107 @@
+ /* .parent{
+    height: 50px;
+    background-color: black;
+    /* text-align: center; 
+} 
+ a{
+    color: white;
+   text-decoration: none;
+    margin: 10px; 
+}
+div{
+    text-align: center;
+} 
+.one{
+    height:400px ;
+    width: 600px;
+    text-align: left;
+}
+.two{
+    height:400px ;
+    width: 600px;
+    text-align: right;
+    /* position: absolute; */
+
+
+    /* .container{
+        background-color: black;
+        display: flex; 
+        justify-content: center;
+    }
+    a{
+        color: white;
+        list-style-type: none;
+        text-decoration: none;
+        
+    } */
+  .container{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    /* display: inline; */
+    text-align: center;
+
+  }
+  /* a{
+    color: white;
+  }
+     */
+    .one{
+        color: white;
+        text-align: center;
+    }
+     div{
+        text-align: center;
+     } 
+    .skill{
+        text-align: start;
+        /* width: 200px; */
+
+    } 
+     
+    .progress-bar{
+        height: 10px;
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+        border: 1px solid gray ;
+    }
+    .progress{
+        background-color: red ;
+        height: 10px;
+        width:80% ;
+        border-radius: 10px;
+        border-radius: 1px solid red;
+    }
+    .progress{
+       
+        height: 10px;
+        width:60% ;
+        border-radius: 10px;
+        
+    }
+    .progress{
+       
+        height: 10px;
+        width:35% ;
+        border-radius: 10px;
+        
+    }
+    .progress{
+       
+        height: 10px;
+        width:95% ;
+        border-radius: 10px;
+        
+    }
+    .project-container{
+        height: 400pxpx;
+        width: 400px;
+        display: flex;
+       margin:50px ;
+    }
+    .project{
+        text-align: start;
+        margin: 50px;
+    }
+     
