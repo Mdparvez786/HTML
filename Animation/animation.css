@@ -1,0 +1,44 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    transform-origin: 4s;
+    animation-name: new;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-direction: alternate;
+}
+
+
+/* div:hover{
+    /* animation: new;
+    transition-duration: 4s;*/
+
+   
+
+@keyframes new {
+    0%{
+        background-color: red;
+        border-radius: 50%;
+    }
+    25%{
+        border-color: black;
+        /* height: 100px;
+        width: 200px; */
+        border: 10px solid grey;
+    }
+    75%{
+        background-color: blue;
+        width: 100vw;
+
+    }
+   
+    
+    100%{
+        background-color: yellow;
+        height: 100vh;
+        width: 100vw;
+        /* border-radius: 50%; */
+    }
+    
+}

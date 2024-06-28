@@ -1,0 +1,11 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+#one{
+    background-image: url("david-clode-l4A5E42LCDw-unsplash.jpg");
+   background-size: cover;
+}
