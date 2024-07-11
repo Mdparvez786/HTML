@@ -1,22 +1,22 @@
 div{
     height: 100px;
     width: 100px;
+     background-color: aqua;
+     margin: auto; 
     border-radius: 50%;
-    background-color: aqua ;
-    margin: auto;
-    background: linear-gradient(red,yellow,blue);
-    border: 5px solid green;
-     /* animation: 900ms ease-in 0s infinite alternate none runnig bounce; transform-origin: 4s; */
-    /* animation-name: new; */
-    animation-timing-function: ease-out;
-    animation: bounce;
+    background: linear-gradient(red,purple,green);
+     border: 5px solid rgb(255, 0, 111);
+   
+    animation: hello;
+    animation-timing-function: ease-in;
     animation-iteration-count: infinite;
-    animation-duration: 10s;
-    animation-direction: alternate;
+     animation-duration: 3s;
+   
+     animation-direction: alternate;
+    
 }
 
-
-@keyframes bounce {
+@keyframes hello {
     0%{
         transform: translateY(0px);
     }
@@ -24,4 +24,5 @@ div{
         transform: translateY(85vh) rotate(360deg);
     }
     
-}
+} 
+

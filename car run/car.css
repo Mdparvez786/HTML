@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+    align-content: center;
+    display: flex;
+}
+.parent{
+    height: 200px;
+    width: 100vw;
+    background-color: rgb(129, 84, 84);
+    margin: auto;
+
+    align-content: center; 
+   
+}
+
+.child{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(20, 221, 93);
+   
+    border-radius: 10%;
+   
+    animation: car;
+     display: flex; 
+    
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: initial; 
+    
+}
+
+@keyframes car {
+    0%{
+        transform: translateX(-240px);
+    }
+    100%{
+        transform: translate(100vw) ;
+    }
+    
+}
+#one{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+   
+    position: relative;
+   
+}
+#two{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    
+   
+   
+}

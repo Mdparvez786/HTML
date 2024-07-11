@@ -1,0 +1,56 @@
+header{
+    height: 200px;
+    width: auto;
+    background-color:green;
+   
+    align-content: center; 
+    text-align: center;
+}
+h1{
+    
+    color: white;
+    
+}
+div{
+    height: 60px;
+    width: auto;
+    background-color: black;
+    text-align: center;
+    align-content: center;
+}
+span{
+    
+    color:whitesmoke; 
+    /* text-decoration: none; */
+    margin: 30px;
+    padding: 20px;
+
+}
+span:hover {
+    
+    background-color: white;
+    color: black;
+}
+section{
+    height: 200px;
+    word-wrap: 600px;
+   
+}
+aside{
+    height: 200px;
+    width: 300px;
+   color: black;
+   
+}
+
+    color: black;
+} */
+
+footer{
+    height: 70px;
+    width: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
